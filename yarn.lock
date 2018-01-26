@@ -1184,6 +1184,13 @@ fill-range@^2.1.0:
     repeat-element "^1.1.2"
     repeat-string "^1.5.2"
 
+find-lat-lng@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/find-lat-lng/-/find-lat-lng-1.0.0.tgz#2f99ea87410685ef6ab5ea635af056f25388b123"
+  dependencies:
+    node-fetch "^1.7.3"
+    p-throttle "^1.1.0"
+
 find-up@^1.0.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/find-up/-/find-up-1.1.2.tgz#6b2e9822b1a2ce0a60ab64d610eccad53cb24d0f"
@@ -2485,7 +2492,7 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
 
-node-fetch@^1.0.1:
+node-fetch@^1.0.1, node-fetch@^1.7.3:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
   dependencies:
@@ -2695,6 +2702,10 @@ p-locate@^2.0.0:
 p-map@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/p-map/-/p-map-1.2.0.tgz#e4e94f311eabbc8633a1e79908165fca26241b6b"
+
+p-throttle@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/p-throttle/-/p-throttle-1.1.0.tgz#dd0822247ffc7767a8c7bb1186fcc632fea57075"
 
 p-try@^1.0.0:
   version "1.0.0"
