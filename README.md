@@ -49,7 +49,7 @@ Verbose output to see errors if you need to troubleshoot.
 
 ### Related
 
-- [find-lat-lng](https://github.com/motleyagency/ind-lat-lng) - API for this module
+- [find-lat-lng](https://github.com/motleyagency/find-lat-lng) - API for this module
 
 ## License
 
