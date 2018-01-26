@@ -26,7 +26,7 @@
     "node": ">=8"
   },
   "files": [
-    "index.js"
+    "cli.js"
   ],
   "author": "Pete Nykänen <pete.a.nykanen@gmail.com>",
   "license": "MIT",

@@ -24,12 +24,11 @@ $ find-lat-lng --help
   Example
     $ find-lan-lng input.json
     [
-      { address: 'Lonnrotinkatu 5', lat: 60.166924, lng: 24.939788},
-      { address: 'Lonnrotinkatu 4', lat: 60.167142, lng: 24.940959},
+      { address: 'Lonnrotinkatu 5, Helsinki', lat: 60.166924, lng: 24.939788},
+      { address: 'Lonnrotinkatu 4, Helsinki', lat: 60.167142, lng: 24.940959},
       ...
     ]
 ```
-
 
 Your input file should be a list of addresses:
 
@@ -47,6 +46,10 @@ If output file was provided, it will contain an array of objects with
 ##### `-d`, `--verbose`
 
 Verbose output to see errors if you need to troubleshoot.
+
+### Related
+
+- [find-lat-lng](https://github.com/motleyagency/ind-lat-lng) - API for this module
 
 ## License
 
