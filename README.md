@@ -12,7 +12,13 @@ $ npm install --global find-lat-lng-cli
 
 ## Usage
 
+You'll need a [Google Maps API-key](https://developers.google.com/maps/documentation/javascript/get-api-key) as an environment variable `GOOGLE_MAPS_API_KEY`
+
 ```
+$ export GOOGLE_MAPS_API_KEY={YOUR_API_KEY} 
+ 
+# then
+
 $ find-lat-lng --help
 
   Usage
@@ -22,7 +28,7 @@ $ find-lat-lng --help
       --debug, -d  Add debug information
 
   Example
-    $ find-lan-lng input.json
+    $ find-lan-lng-cli input.json
     [
       { address: 'Lonnrotinkatu 5, Helsinki', lat: 60.166924, lng: 24.939788},
       { address: 'Lonnrotinkatu 4, Helsinki', lat: 60.167142, lng: 24.940959},
@@ -39,7 +45,15 @@ Your input file should be a list of addresses:
 ]
 ```
 
-If output file was provided, it will contain an array of objects with
+If output file was provided, the script will output the data to the file instead of `STDOUT`.
+
+## Usage with `npx`
+
+You can also use `npx`:
+
+```
+$ npx cross-env GOOGLE_MAPS_API_KEY={YOUR_API_KEY} npx find-lat-lng-cli input.json output.json
+```
 
 ### Options
 
