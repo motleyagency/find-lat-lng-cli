@@ -22,7 +22,7 @@ $ export GOOGLE_MAPS_API_KEY={YOUR_API_KEY}
 $ find-lat-lng --help
 
   Usage
-    $ find-lan-lng input [output]
+    $ find-lat-lng input [output]
 
     Options
       --debug, -d  Add debug information
